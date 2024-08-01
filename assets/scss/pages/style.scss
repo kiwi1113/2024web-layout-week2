@@ -89,11 +89,12 @@ body{
 }
 .intro .container{
     display: flex;
+    justify-content: space-between;
     padding-top: 160px;
     padding-bottom: 160px;
 }
 .introContent{
-    margin-left: 24px;
+    width: 526px;
 }
 .introContent p{
     margin-top: 36px;
@@ -101,34 +102,31 @@ body{
     font-size: 24px;
 }
 .introPhoto{
+    width: 746px;
     display: flex;
-}
-.introPhoto img:nth-child(2){
-    margin-left: 24px;
-    margin-right: 24px;
+    justify-content: space-between;
 }
 
 .about{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .about ol{
     width: 636px;
     height: 328px;
-    margin-right: 134px;
+    // margin-right: 134px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .aboutCard{
     border: 1px solid rgba(227, 227, 227, 1);
     border-radius: 1px;
-    padding: 14px;
+    padding: 15px;
 }
 .aboutCard{
     margin-bottom: 24px;
-}
-.aboutCard:nth-child(odd){
-    margin-right: 24px;
 }
 .aboutCard p{
     width: 274px;
